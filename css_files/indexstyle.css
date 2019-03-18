@@ -1,0 +1,117 @@
+
+#slider {
+    overflow-y: hidden;
+}
+#slider figure {
+    position: relative;
+    width: 515%;
+    margin: 0;
+    left: 0;
+    animation: 25s slider infinite;
+}
+#slider figure img {
+    width: 20%;
+    float: left;
+}
+@keyframes slider {
+    0% {left:0%;}
+    15% {left: 0%;}
+    20% {left: -105%;}
+    40% {left: -105%;}
+    45% {left:-208%;}
+    65% {left: -208%;}
+    70% {left:-311%;}
+    90% {left: -311%;}
+    95% {left: -415%;}
+    100% {left: -415%;}
+    
+}
+table {
+    border: none;
+}
+td {
+    width: 12.5%;
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+td a {
+    color: white;
+    text-decoration: none;
+}
+
+#home {
+    background:rgb(63, 131, 221)
+}
+#aboutus {
+     background:rgb(255,160,122)
+}
+#contactus {
+    background:rgb(168, 140, 47)
+}
+#menu {
+    background:#f9ca24;
+}
+#varities {
+    background:rgb(112, 177, 74)
+}
+
+#feedback {
+    background:rgb(212, 24, 212)
+}
+#register {
+    background:orangered
+}
+
+#login {
+    background:rgb(62, 230, 70)
+}
+
+ #home:hover {
+    background-color:rgb(28, 28, 143);
+    cursor: pointer;
+}
+#aboutus:hover {
+    background-color:rgb(228, 107, 59);
+    cursor: pointer;
+}
+#contactus:hover {
+   background:rgb(80, 64, 12);
+   cursor: pointer;
+}
+#menu:hover {
+    background:#e58e26;
+   cursor: pointer;
+}
+#varities:hover {
+   background:rgb(53, 90, 31);
+   cursor: pointer;
+}
+
+#feedback:hover {
+   background:rgb(177, 15, 177);
+   cursor: pointer;
+}
+#register:hover {
+   background:rgb(187, 58, 10);
+   cursor: pointer;
+}
+
+#login:hover {
+   background:rgb(17, 141, 23);
+   cursor: pointer;
+}
+
+.sectiontable {
+    margin-top: 50px;
+}
+
+.zoom {
+    transition:transform 0.3s;
+}
+
+.zoom:hover {
+    transform: scale(1.2)
+}
