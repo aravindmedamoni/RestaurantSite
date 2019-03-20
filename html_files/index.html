@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tasty-Retaurent</title>
+    <link rel="stylesheet" href="css_files/indexstyle.css">
+    <script>
+        history.pushState(null, null, location.href);
+    window.onpopstate = function () {
+    window.location.href="index.html"
+    }
+    </script>
+    
+
+</head>
+<body>
+    <table border="3" width="100%">
+        <tr>
+            <td id="home"><a href="index.html">HOME</a></td>
+            <td id="aboutus" ><a href="aboutus.html"> ABOUT US</a></td>
+            <td id="contactus"><a href="contactus.html">CONTACT US</a></td>
+            <td id="menu">MENU</td>
+            <td id="varities"><a href="varities.php">VARITIES</a></td>
+            <td id="feedback">FEEDBACK</td>
+            <td id="register"><a href="SignUp.php">REGISTER</a></td>
+            <td id="login"><a href="login.php">LOGIN</a></td>
+        </tr>
+    </table>
+
+    <div id="slider">
+        <figure>
+            <img src="images/foodimage1.jpg" alt="foodimage" width="1360px" height="600px">
+            <img src="images/foodimage2.jpg" alt="foodimage" width="1360px" height="600px">
+            <img src="images/foodimage3.jpg" alt="foodimage" width="1360px" height="600px">
+            <img src="images/softdrinks.jpg" alt="foodimage" width="1360px" height="600px">
+            <img src="images/chickenpopskile.jpg" alt="foodimage" width="1360px" height="600px">
+        </figure>
+    </div>
+    
+    
+
+    <table class="sectiontable" border="2px" width="100%">
+        <tr>
+            <td>
+                <img class="zoom" src="images/burger.jpg" alt="Burger" width="250px" height="220px;">
+            </td>
+            <td>
+              <img class="zoom" src="images/chickenpopskile.jpg" alt="chickenpopskile" width="250px" height="220px;">
+            </td>
+            <td>
+                    <img class="zoom" src="images/icecream.jpg" alt="icecream" width="250px" height="220px;">
+            </td>
+            <td>
+                    <img class="zoom" src="images/icecream2.jpg" alt="Vennela" width="250px" height="220px;">
+            </td>
+            <td>
+                    <img class="zoom" src="images/softdrinks.jpg" alt="CoolDrink" width="250px" height="220px;">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
